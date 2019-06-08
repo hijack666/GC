@@ -201,10 +201,14 @@ main {
   width: 1400px;
   margin-top: -80px;
   z-index: 0;
-  height: 700px;
+  height: 700px; }
+
+.slider {
   background-image: url(img/dave.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: 4s; }
 
 .enter-form {
   position: absolute;
@@ -382,7 +386,7 @@ form .enter-submit:hover {
   left: 0;
   outline: none; }
 
-.about-btn {
+.about-btn:hover {
   background: rgba(255, 255, 255, 0.9); }
 
 /* Button MORE */
